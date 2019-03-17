@@ -1,0 +1,81 @@
+Arguments: 
+  /Users/bytedance/.nvm/versions/node/v10.11.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/bytedance/.nvm/versions/node/v10.11.0/bin:/Users/bytedance/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/bytedance/bin:/Users/bytedance/go/bin:/Users/bytedance/anaconda3/bin:/Users/bytedance/go/bin:/Users/bytedance/anaconda3/bin:/usr/bin:/usr/sbin:/usr/local/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://bnpm.byted.org/node-codestore: Not found
+      at Request.params.callback [as _callback] (/Users/bytedance/.config/yarn/global/node_modules/yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/Users/bytedance/.config/yarn/global/node_modules/yarn/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/bytedance/.config/yarn/global/node_modules/yarn/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/bytedance/.config/yarn/global/node_modules/yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1092:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "codestore",
+    "version": "2.3.0",
+    "description": "Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity",
+    "main": "./src/codestore.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sundogee/codestore.git"
+    },
+    "keywords": [
+      "generator",
+      "scaffolding",
+      "yeoman",
+      "make",
+      "build",
+      "generate",
+      "gen",
+      "codestore"
+    ],
+    "author": "Yuyi Liang <liang.pearce@gmail.com> ",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sundogee/codestore/issues"
+    },
+    "devDependencies": {
+      "inquirer-directory": "^2.1.0",
+      "plop-pack-fancy-comments": "^0.2.0"
+    },
+    "homepage": "https://sundogrd.com",
+    "dependencies": {
+      "chalk": "^1.1.3",
+      "interpret": "^1.2.0",
+      "liftoff": "^2.5.0",
+      "minimist": "^1.2.0",
+      "node-codestore": "~0.18.0",
+      "ora": "^3.0.0",
+      "v8flags": "^2.0.10"
+    },
+    "engines": {
+      "node": ">=8.9.4"
+    },
+    "preferGlobal": true,
+    "bin": {
+      "codestore": "./src/codestore.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
